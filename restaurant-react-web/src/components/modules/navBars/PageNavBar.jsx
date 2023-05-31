@@ -21,6 +21,11 @@ const NavBar = () => {
               HOME
             </Link>
           </li>
+          <li>
+            <Link to="/AboutUs" className="py-7 px-3 inline-block">
+              ABOUT US
+            </Link>
+          </li>
           <NavBarLinks />
           <li>
             <Link to="/Contact" className="py-7 px-3 inline-block">
@@ -29,9 +34,9 @@ const NavBar = () => {
           </li>
         </ul>
         <div className="md:block hidden">
-          <button className="bg-yellow text-black rounded-full py-3 px-6">
+          {/* <button className="bg-yellow text-black rounded-full py-3 px-6">
             DONATE NOW
-          </button>
+          </button> */}
         </div>
         {/* Mobile nav */}
         <ul
@@ -43,6 +48,11 @@ const NavBar = () => {
           <li>
             <Link to="/" className="py-7 px-3 inline-block">
               Home
+            </Link>
+          </li>
+          <li>
+            <Link to="/AboutUs" className="py-7 px-3 inline-block">
+              About Us
             </Link>
           </li>
           <NavBarLinks />

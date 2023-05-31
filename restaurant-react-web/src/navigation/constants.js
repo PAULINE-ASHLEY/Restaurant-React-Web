@@ -1,8 +1,6 @@
 export const HOME = '/';
-export const ABOUTUS = '/';
-export const CONTACT = '/';
-export const DONATE = '/';
-export const VOLUNTEER = '/';
-export const WHAT_WE_DO = '/';
-export const OUR_STAFF = '/OurStaff';
-export const STATEMENT_OF_FAITH = '/';
+export const ABOUTUS = '/AboutUs';
+export const MENU = '/Menu';
+export const CONTACT = '/Contact';
+export const FOOD = '/Food';
+export const DRINK = '/Drink';
