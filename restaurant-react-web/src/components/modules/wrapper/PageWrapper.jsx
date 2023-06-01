@@ -5,7 +5,7 @@ import { PageNavBar } from 'components/modules/navBars';
 function PageWrapper({ children }) {
   return (
     <div className="relative">
-      <nav className="py-2 text-white bg-black">
+      <nav className="py-2 text-black bg-white">
         <div>
           <PageNavBar />
         </div>
