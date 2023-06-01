@@ -10,7 +10,7 @@ const NavBar = () => {
     <nav>
       <div className="flex items-center font-medium justify-around">
         <div className="z-50 md:w-auto w-full flex justify-between">
-          <img src={logo} alt="logo" className="md:cursor-pointer h-20" />
+          <img src={logo} alt="logo" className="md:cursor-pointer" />
           <div className="text-3xl md:hidden" onClick={() => setOpen(!open)}>
             <ion-icon name={`${open ? 'close' : 'menu'}`}></ion-icon>
           </div>
@@ -33,11 +33,11 @@ const NavBar = () => {
             </Link>
           </li>
         </ul>
-        <div className="md:block hidden">
-          {/* <button className="bg-yellow text-black rounded-full py-3 px-6">
+        {/* <div className="md:block hidden">
+          <button className="bg-yellow text-black rounded-full py-3 px-6">
             DONATE NOW
-          </button> */}
-        </div>
+          </button>
+        </div> */}
         {/* Mobile nav */}
         <ul
           className={`
