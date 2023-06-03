@@ -1,14 +1,14 @@
 import React from 'react';
 import { logo } from 'assets/images';
 import { Link } from 'react-router-dom';
-// import {
-// 	FacebookButton,
-// 	InstagramButton,
-// 	LinkButton,
-// 	LinkedInButton,
-// 	TwitterButton,
-// 	YoutubeButton,
-// } from 'components/widgets/Buttons';
+import {
+  FacebookButton,
+  InstagramButton,
+  LinkButton,
+  LinkedInButton,
+  TwitterButton,
+  YoutubeButton,
+} from 'components/widgets/Buttons';
 
 function PageFooter() {
   return (
@@ -25,17 +25,17 @@ function PageFooter() {
           </h3>
           <div className="grid gap-2 grid-cols-2 mt-6">
             <div className="flex flex-col">
-              {/* <LinkButton to="/">Home</LinkButton>
+              <LinkButton to="/">Home</LinkButton>
               <LinkButton to="/">About Us</LinkButton>
               <LinkButton to="/">Announcement</LinkButton>
-              <LinkButton to="/">BWC Project</LinkButton> */}
+              <LinkButton to="/">BWC Project</LinkButton>
             </div>
 
             <div className="flex flex-col">
-              {/* <LinkButton to="/">Blog</LinkButton>
+              <LinkButton to="/">Blog</LinkButton>
               <LinkButton to="/">Our Partners</LinkButton>
               <LinkButton to="/">Programs</LinkButton>
-              <LinkButton to="/">Contact Us</LinkButton> */}
+              <LinkButton to="/">Contact Us</LinkButton>
             </div>
           </div>
         </div>
@@ -53,11 +53,11 @@ function PageFooter() {
           </p>
           <h3 className="font-bold text-2xl mt-5 mb-2">Get In Touch With Us</h3>
           <div className="flex gap-x-4">
-            {/* <InstagramButton />
-						<LinkedInButton />
-						<FacebookButton />
-						<TwitterButton />
-						<YoutubeButton /> */}
+            <InstagramButton />
+            <LinkedInButton />
+            <FacebookButton />
+            <TwitterButton />
+            <YoutubeButton />
           </div>
         </div>
       </div>
