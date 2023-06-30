@@ -6,17 +6,17 @@ import { PageFooter } from 'components/modules/footer';
 function PageWrapper({ children }) {
   return (
     <div className="relative">
-      <nav className="py-2 text-black bg-white">
+      <nav className="py-2 text-black">
         <div>
           <PageNavBar />
         </div>
       </nav>
 
-      <main>
+      <main className='bg-[#f2f5f7]'>
         <div className="min-h-[75vh] box-border w-full">{children}</div>
       </main>
 
-      <footer className="bg-black flex justify-center items-center mt-4">
+      <footer className="text-black flex justify-center items-center mt-4">
         <div className="md:container py-8 px-4 lg:px-16 ">
           <PageFooter />
         </div>

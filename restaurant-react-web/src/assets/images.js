@@ -5,3 +5,5 @@ export const logo = `${IMAGES_PATH}/logo.png`;
 export const burger = `${IMAGES_PATH}/burger.jpg`;
 export const drink = `${IMAGES_PATH}/drink.jpg`;
 export const pasta = `${IMAGES_PATH}/pasta.jpg`;
+export const email = `${IMAGES_PATH}/email.png`;
+export const location = `${IMAGES_PATH}/location.png`;

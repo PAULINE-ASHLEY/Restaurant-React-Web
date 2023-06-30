@@ -9,6 +9,7 @@ module.exports = {
     colors: {
       white: '#FFFFFF',
       black: '#000000',
+      whitesmoke: '#f2f5f7',
     },
     screens: {
       sm: '512px',
